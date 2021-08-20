@@ -81,7 +81,7 @@ button {
   left: -10px;
   color: #f7f0ff;
   font-size: 2rem;
-  background-color: #df3716;
+  background-color: #f05442;
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
@@ -206,7 +206,7 @@ button {
 }
 
 .contact-option.active {
-  background-color: #df3716;
+  background-color: #f05442;
 }
 
 .contact-content {
