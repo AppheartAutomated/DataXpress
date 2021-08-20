@@ -1,6 +1,5 @@
 * {
   font-family: inherit;
-  font-size: 100%;
 
   &,
   &::before,
@@ -20,6 +19,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: $font__pri;
+  font-style: 16px;
 }
 
 a {
