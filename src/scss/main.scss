@@ -1,11 +1,9 @@
-/* Atoms */
-@import "./2.atoms/all";
+@import "./1.helpers/all";
 
-/* Components */
-@import "./3.components/all";
+@import "./2.utilities/all";
 
-/* Layouts */
-@import "./4.layouts/all";
+@import "./3.atoms/all";
 
-/* Themes */
-@import "./5.themes/all";
+@import "./4.components/all";
+
+@import "./5.layouts/all";
