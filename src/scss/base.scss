@@ -1,0 +1,51 @@
+/* --- Base CSS @appheart_ux ---*/
+
+/* Utilities */
+
+@import "./1.utilities/all";
+
+* {
+  font-family: $pri-font;
+
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
