@@ -55,45 +55,62 @@
 
     <div class="contact-wrapper">
       <div class="contact-options">
-        <div class="contact-option">
+        <div class="contact-option active" data-option="call">
           <i class="bx bx-phone-call"></i>
         </div>
-        <div class="contact-option">
+        <div class="contact-option" data-option="email">
           <i class="bx bx-mail-send"></i>
         </div>
-        <div class="contact-option">
+        <div class="contact-option" data-option="message">
           <i class="bx bx-message-alt-detail"></i>
         </div>
-        <div class="contact-option">
+        <div class="contact-option" data-option="whatsapp">
           <i class="bx bxl-whatsapp"></i>
         </div>
       </div>
       <div class="contact">
-        <div class="contact-content">
-          <div class="call">
-            <h3>Call us on:</h3>
-            <p>08167583323</p>
-          </div>
+        <div class="call contact-content active" data-response="call">
+          <h3>Call us on:</h3>
+          <p>08167583323</p>
+        </div>
 
-          <div class="message">
-            <h3>Write us a message</h3>
-            <form action="#">
-              <div class="form-group">
-                <label for="" Name></label>
-                <input type="text" />
-              </div>
-              <div class="form-group">
-                <label for="" Name></label>
-                <textarea></textarea>
-              </div>
-              <div class="form-group">
-                <button>Send a message</button>
-              </div>
-            </form>
-          </div>
+        <div class="message contact-content" data-response="message">
+          <h3>Write us a message</h3>
+          <form action="#">
+            <div class="form-group">
+              <label for="" Name></label>
+              <input type="text" />
+            </div>
+            <div class="form-group">
+              <label for="" Name></label>
+              <textarea></textarea>
+            </div>
+            <div class="form-group">
+              <button>Send a message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="message contact-content" data-response="email">
+          <h3>Write us an email</h3>
+          👇
+          <p>dataxpressprofessionals@gmail.com</p>
+        </div>
+        <div class="message contact-content" data-response="whatsapp">
+          <h3>WhatsApp</h3>
+          <form action="#">
+            <div class="form-group">
+              <label for="" Name></label>
+              <textarea></textarea>
+            </div>
+            <div class="form-group">
+              <button onclick="location.href">Send a message</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
+
     <main>
       <section class="sectionn hero">
         <h1>Discover the World</h1>

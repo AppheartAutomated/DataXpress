@@ -199,6 +199,7 @@ button {
 .contact-option {
   font-size: 2rem;
   color: #0a1842;
+  padding: 0 10px;
 }
 
 .contact-option:not(:last-of-type) {
@@ -210,6 +211,7 @@ button {
 }
 
 .contact-content {
+  display: none;
   padding: 20px;
   background-color: #f7f0ff;
   -webkit-backdrop-filter: blur(25px);
@@ -218,6 +220,14 @@ button {
   max-width: 350px;
   margin: auto;
   text-align: center;
+}
+
+.contact-content.hide {
+  display: none;
+}
+
+.contact-content.active {
+  display: block;
 }
 
 .form-group {
