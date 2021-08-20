@@ -2,11 +2,13 @@
   font-family: inherit;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -67,12 +69,13 @@ button {
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  transform: scale(0.5);
 }
 
-.menuHandler:hover::after, .menuHandler.active::after {
+.menuHandler:hover::after,
+.menuHandler.active::after {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .contactHandler {
@@ -86,16 +89,16 @@ button {
   height: 5rem;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 5px rgba(16, 26, 55, 0.5);
-          box-shadow: 0 0 5px rgba(16, 26, 55, 0.5);
+  box-shadow: 0 0 5px rgba(16, 26, 55, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -114,7 +117,7 @@ button {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   content: "";
   background-color: rgba(16, 26, 55, 0.5);
   height: 140%;
@@ -123,15 +126,17 @@ button {
   border-radius: 50%;
 }
 
-.contactHandler:hover, .contactHandler.active {
+.contactHandler:hover,
+.contactHandler.active {
   background-color: #101a37;
   color: #101a37;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   z-index: 100;
 }
 
-.contactHandler:hover::after, .contactHandler.active::after {
+.contactHandler:hover::after,
+.contactHandler.active::after {
   background-color: #f7f0ff;
 }
 
@@ -140,11 +145,11 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact-wrapper {
@@ -157,24 +162,24 @@ button {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: 100px 1fr;
-      grid-template-rows: 100px 1fr;
+  grid-template-rows: 100px 1fr;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #101a37;
   -webkit-transition: 0.4s -webkit-transform ease-in-out;
   transition: 0.4s -webkit-transform ease-in-out;
   transition: 0.4s transform ease-in-out;
   transition: 0.4s transform ease-in-out, 0.4s -webkit-transform ease-in-out;
   -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  transform: translateY(100%);
 }
 
 .contact-wrapper.active {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: 0.4s -webkit-transform ease-in-out;
   transition: 0.4s -webkit-transform ease-in-out;
   transition: 0.4s transform ease-in-out;
@@ -189,11 +194,11 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact-option {
@@ -213,7 +218,7 @@ button {
   padding: 20px;
   background-color: #f7f0ff;
   -webkit-backdrop-filter: blur(25px);
-          backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
   width: 90%;
   max-width: 350px;
   margin: auto;
@@ -232,15 +237,15 @@ button {
   height: 100%;
   background-color: rgba(28, 204, 253, 0.3);
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   -webkit-transition: 0.4s -webkit-transform ease-in-out;
   transition: 0.4s -webkit-transform ease-in-out;
   transition: 0.4s transform ease-in-out;
   transition: 0.4s transform ease-in-out, 0.4s -webkit-transform ease-in-out;
   -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  transform: translateX(100%);
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
 }
 
 .nav ul {
@@ -255,14 +260,14 @@ button {
   color: #f7f0ff;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -270,7 +275,8 @@ button {
   line-height: 60px;
 }
 
-.nav ul li:focus-within, .nav ul li:hover {
+.nav ul li:focus-within,
+.nav ul li:hover {
   border-bottom: 3px solid #333;
 }
 
@@ -279,20 +285,20 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100%;
   text-decoration: none;
 }
 
 .nav.active {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
   -webkit-transition: 0.5s -webkit-transform ease-in-out;
   transition: 0.5s -webkit-transform ease-in-out;
   transition: 0.5s transform ease-in-out;
@@ -313,11 +319,11 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 20px 5%;
   color: #f7f0ff;
 }
